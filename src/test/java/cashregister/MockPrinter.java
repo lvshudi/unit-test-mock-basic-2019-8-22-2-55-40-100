@@ -12,4 +12,8 @@ public class MockPrinter extends Printer {
 	public String getPrintThis() {
 		return printThis;
 	}
+	public void setPrintThis(String printThis) {
+		this.printThis = printThis;
+	}
+	
 }
